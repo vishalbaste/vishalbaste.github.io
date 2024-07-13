@@ -507,4 +507,8 @@ body.darkskin #Contact div.contact_form textarea
     border-radius: 50%;
     background-color: var(--white);
 }
+body.darkskin #back-to-top i
+{
+    color: #444 !important;
+}
 /*Back to Top CSS END*/
