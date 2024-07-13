@@ -32,6 +32,7 @@
     --light: #f8f9fa;
     --dark: #343a40;
     --footer: #12161d;
+    --theme: #05BDFF;
 }
 h1,h2,h3,h4,h5,h6,p,th,td,div,span,strong,li,a,label
 {
@@ -476,3 +477,34 @@ body.darkskin #Contact div.contact_form textarea
 
 
 /*Project CSS End*/
+/*Back to Top CSS Start*/
+#back-to-top
+{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background-color: var(--green);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    display: none;
+}
+#back-to-top #progress
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 27px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    background-color: var(--white);
+}
+/*Back to Top CSS END*/
