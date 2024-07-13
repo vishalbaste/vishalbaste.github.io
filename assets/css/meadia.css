@@ -32,6 +32,11 @@
     {
         grid-template-columns: 4fr 2fr;
     }
+
+    #Contact .contact_row
+    {
+        flex-direction: column-reverse;
+    }
 }
 
 @media only screen AND (max-width: 768px)

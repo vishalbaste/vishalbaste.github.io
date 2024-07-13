@@ -468,6 +468,10 @@ body.darkskin #Contact div.contact_form textarea
     margin-top: 20px;
     cursor: pointer;
 }
+#Contact .contact_row .contact_form
+{
+    margin: auto;
+}
 /*Contact Form CSS*/
 
 
