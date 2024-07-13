@@ -309,6 +309,8 @@ div#About .profileImg>img
     border: 2px solid #444;
     border-radius: 50%;
     transition: all .3s ease;
+    width: 250px;
+    height: 250px;
 }
 div#About .profileImg
 {
