@@ -69,7 +69,7 @@ nav#nav.container
 }
 .menu>ul>li>a
 {
-    text-decoration: none;
+    text-decoration: none !important;
     color: var(--txt);
     font-weight: 500;
 }
@@ -192,7 +192,7 @@ body.darkskin .menuopen div
 }
 .footerbar .copyright-text>a
 {
-    text-decoration: none;
+    text-decoration: none !important;
     color: var(--white);
 }
 /*Footer*/
@@ -259,12 +259,14 @@ div#Home .buttons a,
 div#Home .buttons i
 {
     color: #fff;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 div#About .heading,
 div#Skills .heading,
 div#Projects .heading,
 div#GithubStats .heading,
+div#experience .heading,
+div#education .heading,
 div#Contact .heading
 {
     text-align: center;
@@ -363,6 +365,11 @@ div#Projects
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
+}
+#GithubStats .gitstat_row img
+{
+    max-width: 100%;
+    min-width: 350px;
 }
 /*Home*/
 
