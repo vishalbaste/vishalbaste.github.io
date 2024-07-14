@@ -33,6 +33,7 @@
     --dark: #343a40;
     --footer: #12161d;
     --theme: #05BDFF;
+    --btn: #4070f4;
 }
 h1,h2,h3,h4,h5,h6,p,th,td,div,span,strong,li,a,label
 {
@@ -514,3 +515,83 @@ body.darkskin #back-to-top i
     color: #444 !important;
 }
 /*Back to Top CSS END*/
+
+/*Projects Section Start*/
+#Projects .projects_row
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: stretch;
+}
+#Projects .projects_row .card
+{
+    flex-basis: 32%;
+    min-width: 350px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 15px;
+    padding: 5px 15px;
+    position: relative;
+    padding-bottom: 50px;
+}
+#Projects .projects_row .card img
+{
+    width: 100%;
+    border-radius: 15px;
+}
+#Projects .projects_row .card .pro_lang
+{
+    margin-bottom: 15px;
+}
+#Projects .projects_row .card .pro_lang>ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+}
+#Projects .projects_row .card .pro_lang>ul>li
+{
+    list-style: none;
+    background: #4070f4;
+    color: var(--white);
+    padding: 0 15px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-family: Montserrat,Helvetica Neue,Arial,sans-serif;
+}
+#Projects .projects_row .card .pro_lang>ul>li:hover
+{
+    box-shadow: none;
+}
+#Projects .projects_row .card .buttons
+{
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    bottom: 15px;
+}
+#Projects .projects_row .card .buttons button
+{
+    background-color: var(--green);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+}
+#Projects .projects_row .card .buttons i
+{
+    margin: 0 5px;
+}
+#Projects .description .projects_heading>h2
+{
+    font-size: 20px;
+    margin: 15px 0;
+}
+body.darkskin #Projects .projects_row .card
+{
+    border: 1px solid rgba(255, 255, 255, .7);
+    box-shadow: none;
+}
+/*Projects Section End*/
