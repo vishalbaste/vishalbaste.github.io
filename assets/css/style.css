@@ -240,6 +240,7 @@ div#Home>div:nth-child(1)
 div#Home>div:nth-child(2)
 {
     flex-basis: 50%;
+    min-width: 350px;
 }
 div#Home h2
 {
