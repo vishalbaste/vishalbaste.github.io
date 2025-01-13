@@ -241,6 +241,7 @@ div#Home>div:nth-child(2)
 {
     flex-basis: 50%;
     min-width: 350px;
+    width: 100%;
 }
 div#Home h2
 {
@@ -282,6 +283,7 @@ div#Projects .heading,
 div#GithubStats .heading,
 div#experience .heading,
 div#education .heading,
+div#Certificates .heading,
 div#Contact .heading
 {
     text-align: center;
